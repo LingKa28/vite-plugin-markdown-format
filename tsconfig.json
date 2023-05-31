@@ -17,6 +17,6 @@
     "jsx": "react-jsx",
     "types": ["remark"]
   },
-  "include": ["src"],
+  "include": ["src", "plugin"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

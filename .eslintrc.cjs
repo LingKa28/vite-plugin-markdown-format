@@ -33,6 +33,8 @@ module.exports = {
     ],
     'react/no-unescaped-entities': 'off',
     'react/jsx-key': 'warn',
+    'no-unused-vars': ['warn', { varsIgnorePattern: '^[_]{1}' }],
+    '@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: '^_' }],
   },
   settings: {
     react: {
